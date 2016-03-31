@@ -21,3 +21,8 @@ The 'created_at' key from each issue is being compares to the time constraints w
 
 Finally the 'get_issues.php' file sends a json reponse to the angularJS controller. The controller on recieving a successful response displays the output on the index.html file in the form of table. 
 
+The solution can be further improvised by:
+    - Including error handling such as, if a particular repository's access is denied or the IP address is blocked from  accessing the repository, the application responds with suitable response.
+    - We could have a save option where user chose to save the url to a particular repository could be saved for future. 
+    - Also, a log could be maintained with history of the response(the different issue counts). 
+
