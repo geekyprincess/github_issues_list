@@ -1,0 +1,12 @@
+{
+    "name": "ashimagoel/shippable",
+    "require": {
+        "php": "^5.5"
+    },
+    "authors": [
+        {
+            "name": "geekyprincess",
+            "email": "goel.ashima@gmail.com"
+        }
+    ]
+}
